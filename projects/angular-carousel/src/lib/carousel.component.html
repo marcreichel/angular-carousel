@@ -1,0 +1,44 @@
+<div class="carousel--container">
+  <div class="carousel--slider">
+    <div *ngIf="currentSlide > 0" class="carousel--previous">
+      <button (click)="previousSlide($event)">
+        <svg viewBox="0 0 20 20">
+          <polyline points="12 2, 6 10, 12 18"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    fill="transparent"
+                    stroke-linejoin="round"></polyline>
+        </svg>
+      </button>
+    </div>
+    <ol [style.left.%]="currentSlide * -100" class="carousel--slides">
+      <li *ngFor="let slide of slides; let index = index" [ngClass]="{'carousel--slide__active':index===currentSlide}"
+          class="carousel--slide">
+        <ng-container [ngTemplateOutlet]="slide.template"></ng-container>
+      </li>
+    </ol>
+    <div *ngIf="currentSlide < slides.length - 1" class="carousel--next">
+      <button (click)="nextSlide($event)">
+        <svg viewBox="0 0 20 20">
+          <polyline points="8 2, 14 10, 8 18"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    fill="transparent"
+                    stroke-linejoin="round"></polyline>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <ng-container *ngIf="!hideBullets">
+    <ol class="carousel--bullets">
+      <li *ngFor="let slide of slides; let index = index">
+        <button (click)="goToSlide(index + 1, $event)" [ngClass]="{'carousel--bullet__active':index===currentSlide}"
+                class="carousel--bullet">
+          <span class="sr-only">{{ index + 1 }}</span>
+        </button>
+      </li>
+    </ol>
+  </ng-container>
+</div>

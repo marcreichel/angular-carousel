@@ -1,0 +1,15 @@
+.carousel--bullet {
+  width: 2rem;
+  height: 0.25rem;
+  background: #64748B;
+  opacity: .25;
+}
+
+.carousel--bullet:hover {
+  opacity: .6;
+}
+
+.carousel--bullet.carousel--bullet__active {
+  opacity: 1;
+  background: #6366F1;
+}
