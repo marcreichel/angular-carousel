@@ -16,7 +16,7 @@ import {
 import {CarouselSlideDirective} from "./slide.directive";
 
 @Component({
-  selector: 'ngx-carousel',
+  selector: 'mr-carousel',
   templateUrl: './carousel.component.html',
   styleUrls: ['./carousel.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,

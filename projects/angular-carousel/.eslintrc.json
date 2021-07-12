@@ -20,7 +20,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "ngxCarousel",
+            "prefix": "simpleCarousel",
             "style": "camelCase"
           }
         ],
@@ -28,7 +28,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "ngx-carousel",
+            "prefix": "simple-carousel",
             "style": "kebab-case"
           }
         ]

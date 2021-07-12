@@ -6,16 +6,16 @@ A simple and lightweight Angular (12+) Carousel Component.
 
 ## Installation
 
-Install `@marcreichel/angular-carousel` with npm:
+Install `mr-carousel` with npm:
 
 ```bash
-npm install @marcreichel/angular-carousel --save
+npm install mr-carousel --save
 ```
 
 or with yarn:
 
 ```bash
-yarn add @marcreichel/angular-carousel
+yarn add mr-carousel
 ```
 
 ## Documentation

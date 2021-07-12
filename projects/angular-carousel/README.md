@@ -6,16 +6,16 @@ A simple and lightweight Angular (12+) Carousel Component.
 
 ## Installation
 
-Install `@marcreichel/angular-carousel` with npm:
+Install `mr-carousel` with npm:
 
 ```bash
-npm install @marcreichel/angular-carousel --save
+npm install mr-carousel --save
 ```
 
 or with yarn:
 
 ```bash
-yarn add @marcreichel/angular-carousel
+yarn add mr-carousel
 ```
 
 ## Usage/Examples
@@ -25,7 +25,7 @@ yarn add @marcreichel/angular-carousel
 `app.module.ts`:
 
 ```typescript
-import { CarouselModule } from '@marcreichel/angular-carousel';
+import { CarouselModule } from 'mr-carousel';
 
 @NgModule({
   // ...
@@ -56,11 +56,11 @@ export class AppModule { }
 Import a theme:
 
 ```scss
-@import "~@marcreichel/angular-carousel/themes/stripes.css";
+@import "~mr-carousel/themes/stripes.css";
 
 /* or */
 
-@import "~@marcreichel/angular-carousel/themes/dots.css";
+@import "~mr-carousel/themes/dots.css";
 ```
 
 You can also create your own theme to match the theme of your website/app. More on that in the [Theming](#theming) section.
