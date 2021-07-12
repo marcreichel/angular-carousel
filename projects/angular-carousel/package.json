@@ -1,9 +1,23 @@
 {
   "name": "@marcreichel/angular-carousel",
-  "version": "0.0.1",
+  "version": "0.0.0",
+  "description": "A simple and lightweight Angular (12+) Carousel Component.",
+  "homepage": "https://github.com/marcreichel/angular-carousel",
+  "keywords": [
+    "angular",
+    "library",
+    "carousel",
+    "component",
+    "typescript"
+  ],
+  "author": {
+    "name": "Marc Reichel",
+    "url": "https://github.com/marcreichel"
+  },
+  "license": "MIT",
   "peerDependencies": {
-    "@angular/common": "^12.1.1",
-    "@angular/core": "^12.1.1"
+    "@angular/common": "^12.0.0",
+    "@angular/core": "^12.0.0"
   },
   "dependencies": {
     "tslib": "^2.2.0"

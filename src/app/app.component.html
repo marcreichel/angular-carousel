@@ -1,19 +1,34 @@
 <div style="max-width:750px;margin:5vh auto;">
-  <carousel>
-    <div *carouselSlide>
-      <div style="border:5px dashed #CBD5E1;padding:20px;text-align:center;">
+  <mr-carousel [infinite]="true" [auto]="true">
+    <div *mrCarouselSlide>
+      <div class="slide">
         Slide 1
       </div>
     </div>
-    <div *carouselSlide>
-      <div style="border:5px dashed #CBD5E1;padding:20px;text-align:center;">
+    <div *mrCarouselSlide>
+      <div class="slide">
         Slide 2
       </div>
     </div>
-    <div *carouselSlide>
-      <div style="border:5px dashed #CBD5E1;padding:20px;text-align:center;">
+    <div *mrCarouselSlide>
+      <div class="slide">
         Slide 3
       </div>
     </div>
-  </carousel>
+    <div *mrCarouselSlide>
+      <div class="slide">
+        Slide 4
+      </div>
+    </div>
+    <div *mrCarouselSlide>
+      <div class="slide">
+        Slide 5
+      </div>
+    </div>
+    <div *mrCarouselSlide>
+      <div class="slide">
+        Slide 6
+      </div>
+    </div>
+  </mr-carousel>
 </div>

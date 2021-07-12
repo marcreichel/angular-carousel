@@ -31,9 +31,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss",
-              "projects/angular-carousel/assets/angular-carousel.core.css",
-              "projects/angular-carousel/assets/angular-carousel.stripes.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -105,6 +103,15 @@
             ],
             "scripts": []
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     },
@@ -136,9 +143,18 @@
             "tsConfig": "projects/angular-carousel/tsconfig.spec.json",
             "karmaConfig": "projects/angular-carousel/karma.conf.js"
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/angular-carousel/**/*.ts",
+              "projects/angular-carousel/**/*.html"
+            ]
+          }
         }
       }
     }
   },
-  "defaultProject": "angular-carousel-dev"
+  "defaultProject": "angular-carousel"
 }

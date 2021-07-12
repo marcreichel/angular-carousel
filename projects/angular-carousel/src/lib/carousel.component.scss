@@ -1,11 +1,11 @@
-.carousel--slider {
+.carousel__slider {
   position: relative;
   z-index: 0;
   overflow: hidden;
 }
 
-.carousel--previous,
-.carousel--next {
+.carousel__previous,
+.carousel__next {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -16,25 +16,28 @@
   align-items: center;
 }
 
-.carousel--next {
+.carousel__next {
   left: auto;
   right: 0;
 }
 
-.carousel--previous button,
-.carousel--next button {
+.carousel__previous button,
+.carousel__next button {
   cursor: pointer;
   border: none;
   background: transparent;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
 }
 
-.carousel--previous svg,
-.carousel--next svg {
+.carousel__previous svg,
+.carousel__next svg {
   width: 2rem;
   height: 2rem;
 }
 
-.carousel--slides {
+.carousel__slides {
   display: flex;
   position: relative;
   transition: left 300ms ease-in-out;
@@ -44,7 +47,7 @@
   min-height: 3rem;
 }
 
-.carousel--slide {
+.carousel__slide {
   position: relative;
   box-sizing: border-box;
   width: 100%;
@@ -55,7 +58,7 @@
   transition: opacity 300ms ease-in-out;
 }
 
-.carousel--slide:not(.carousel--slide__active) {
+.carousel__slide:not(.carousel__slide--active) {
   opacity: 0;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -65,25 +68,34 @@
   z-index: -1;
 }
 
-.carousel--bullets {
+.carousel__bullets {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   list-style-type: none;
   padding: 0;
+  margin: .625rem 0 0 0;
 }
 
-.carousel--bullets > li {
+.carousel__bullets > li {
   padding: 0.25rem;
 }
 
-.carousel--bullet {
+.carousel__bullets > li:empty {
+  display: none;
+}
+
+.carousel__bullet {
   display: block;
   border: none;
   padding: 0;
   margin: 0;
   cursor: pointer;
+}
+
+.carousel__bullet.carousel__bullet--active {
+  cursor: default;
 }
 
 .sr-only {
