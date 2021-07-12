@@ -1,5 +1,5 @@
 {
-  "name": "@marcreichel/angular-carousel",
+  "name": "ngx-carousel",
   "version": "0.0.0",
   "description": "A simple and lightweight Angular (12+) Carousel Component.",
   "homepage": "https://github.com/marcreichel/angular-carousel",

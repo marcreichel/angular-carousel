@@ -1,7 +1,7 @@
 import {Directive, TemplateRef} from "@angular/core";
 
 @Directive({
-  selector: '[mrCarouselSlide]',
+  selector: '[ngxCarouselSlide]',
 })
 export class CarouselSlideDirective {
   constructor(public template: TemplateRef<any>) {
