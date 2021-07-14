@@ -1,6 +1,6 @@
 {
-  "name": "mr-carousel",
-  "version": "0.0.0",
+  "name": "@marcreichel/angular-carousel",
+  "version": "0.0.1",
   "description": "A simple and lightweight Angular (12+) Carousel Component.",
   "homepage": "https://github.com/marcreichel/angular-carousel",
   "keywords": [

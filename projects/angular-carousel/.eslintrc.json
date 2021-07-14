@@ -20,7 +20,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "simpleCarousel",
+            "prefix": "angularCarousel",
             "style": "camelCase"
           }
         ],
@@ -28,7 +28,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "simple-carousel",
+            "prefix": "angular-carousel",
             "style": "kebab-case"
           }
         ]

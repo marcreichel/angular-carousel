@@ -6,16 +6,16 @@ A simple and lightweight Angular (12+) Carousel Component.
 
 ## Installation
 
-Install `mr-carousel` with npm:
+Install `@marcreichel/angular-carousel` with npm:
 
 ```bash
-npm install mr-carousel --save
+npm install @marcreichel/angular-carousel --save
 ```
 
 or with yarn:
 
 ```bash
-yarn add mr-carousel
+yarn add @marcreichel/angular-carousel
 ```
 
 ## Usage/Examples
@@ -25,7 +25,7 @@ yarn add mr-carousel
 `app.module.ts`:
 
 ```typescript
-import { CarouselModule } from 'mr-carousel';
+import { CarouselModule } from '@marcreichel/angular-carousel';
 
 @NgModule({
   // ...
@@ -40,27 +40,27 @@ export class AppModule { }
 `app.component.html`:
 
 ```html
-<mr-carousel>
-  <ng-template *mrCarouselSlide>
+<angular-carousel>
+  <ng-template *angularCarouselSlide>
     Slide 1
   </ng-template>
-  <ng-template *mrCarouselSlide>
+  <ng-template *angularCarouselSlide>
     Slide 2
   </ng-template>
-  <ng-template *mrCarouselSlide>
+  <ng-template *angularCarouselSlide>
     Slide 3
   </ng-template>
-</mr-carousel>
+</angular-carousel>
 ```
 
 Import a theme:
 
 ```scss
-@import "~mr-carousel/themes/stripes.css";
+@import "~@marcreichel/angular-carousel/themes/stripes.css";
 
 /* or */
 
-@import "~mr-carousel/themes/dots.css";
+@import "~@marcreichel/angular-carousel/themes/dots.css";
 ```
 
 You can also create your own theme to match the theme of your website/app. More on that in the [Theming](#theming) section.
@@ -70,9 +70,9 @@ You can also create your own theme to match the theme of your website/app. More 
 Setting the `[bullets]` option to `false` hides the bullets from the carousel.
 
 ```html
-<mr-carousel [bullets]="false">
+<angular-carousel [bullets]="false">
   <!-- Slides -->
-</mr-carousel>
+</angular-carousel>
 ```
 
 ### Infinite (default: `false`)
@@ -80,9 +80,9 @@ Setting the `[bullets]` option to `false` hides the bullets from the carousel.
 Using the `[infinite]` option the carousel can be slide through infinitely.
 
 ```html
-<mr-carousel [infinite]="true">
+<angular-carousel [infinite]="true">
   <!-- Slides -->
-</mr-carousel>
+</angular-carousel>
 ```
 
 ### Auto (default: `false`)
@@ -90,9 +90,9 @@ Using the `[infinite]` option the carousel can be slide through infinitely.
 Setting the `[auto]` option to `true` lets the carousel cycle through the slides automatically.
 
 ```html
-<mr-carousel [auto]="true">
+<angular-carousel [auto]="true">
   <!-- Slides -->
-</mr-carousel>
+</angular-carousel>
 ```
 
 ### Duration (default: `5000`, minimum: `500`)
@@ -100,9 +100,9 @@ Setting the `[auto]` option to `true` lets the carousel cycle through the slides
 This setting describes for how long each slide is visible in milliseconds (when using the `[auto]="true"` mode).
 
 ```html
-<mr-carousel [duration]="6000">
+<angular-carousel [duration]="6000">
   <!-- Slides -->
-</mr-carousel>
+</angular-carousel>
 ```
 
 ### Theming
