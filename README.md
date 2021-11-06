@@ -24,7 +24,7 @@ yarn add @marcreichel/angular-carousel
 
 ## Documentation
 
-See the [documentation](projects/angular-carousel/README.md).
+You will find the full documentation on [the dedicated documentation site](https://marcreichel.dev/docs/angular-carousel).
 
 ## Contributing
 
