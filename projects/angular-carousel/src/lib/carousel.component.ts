@@ -18,7 +18,6 @@ import {CarouselSlideDirective} from "./slide.directive";
 @Component({
   selector: 'angular-carousel',
   templateUrl: './carousel.component.html',
-  styleUrls: ['./carousel.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class CarouselComponent implements OnChanges, AfterContentChecked, OnDestroy {
