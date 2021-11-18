@@ -8,6 +8,8 @@
 
 A simple and lightweight Angular (12+) Carousel Component.
 
+![Demo](art/demo.gif)
+
 ## Installation
 
 Install `@marcreichel/angular-carousel` with npm:
