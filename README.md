@@ -8,7 +8,7 @@
 
 A simple and lightweight Angular (12+) Carousel Component.
 
-![Demo](art/demo.gif)
+![Demo](docs/art/demo.gif)
 
 ## Installation
 
