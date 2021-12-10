@@ -20,7 +20,7 @@ export class AppModule {
 `styles.css`:
 
 ```css
-/* torchlight! {"lineNumbers": false} */
+// torchlight! {"lineNumbers": false}
 /* Main Styling */
 
 @import "~@marcreichel/angular-carousel/css/main.css";
