@@ -3,6 +3,7 @@
 `app.module.ts`:
 
 ```typescript
+// torchlight! {"lineNumbers": false}
 import { CarouselModule } from '@marcreichel/angular-carousel';
 
 @NgModule({
@@ -19,6 +20,7 @@ export class AppModule {
 `styles.css`:
 
 ```css
+/* torchlight! {"lineNumbers": false} */
 /* Main Styling */
 
 @import "~@marcreichel/angular-carousel/css/main.css";

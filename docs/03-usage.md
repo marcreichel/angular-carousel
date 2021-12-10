@@ -1,6 +1,7 @@
 # Usage/Examples
 
 ```html
+// torchlight! {"lineNumbers": false}
 <angular-carousel>
     <ng-template *angularCarouselSlide>
         Slide 1
@@ -21,6 +22,7 @@
 Show or hide the bullets.
 
 ```html
+// torchlight! {"lineNumbers": false}
 <angular-carousel [bullets]="false">
     <!-- slides -->
 </angular-carousel>
@@ -33,6 +35,7 @@ Show or hide the bullets.
 Enable or disable infinite sliding.
 
 ```html
+// torchlight! {"lineNumbers": false}
 <angular-carousel [infinite]="true">
     <!-- slides -->
 </angular-carousel>
@@ -45,6 +48,7 @@ Enable or disable infinite sliding.
 Enable or disable auto sliding.
 
 ```html
+// torchlight! {"lineNumbers": false}
 <angular-carousel [auto]="true">
     <!-- slides -->
 </angular-carousel>
@@ -57,6 +61,7 @@ Enable or disable auto sliding.
 Duration (in ms) of transition between slides (if `[auto]` is enabled)
 
 ```html
+// torchlight! {"lineNumbers": false}
 <angular-carousel [duration]="2500">
     <!-- slides -->
 </angular-carousel>
