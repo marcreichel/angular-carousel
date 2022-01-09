@@ -3,15 +3,15 @@
 ```html
 // torchlight! {"lineNumbers": false}
 <angular-carousel>
-    <ng-template *angularCarouselSlide>
+    <div *angularCarouselSlide>
         Slide 1
-    </ng-template>
-    <ng-template *angularCarouselSlide>
+    </div>
+    <div *angularCarouselSlide>
         Slide 2
-    </ng-template>
-    <ng-template *angularCarouselSlide>
+    </div>
+    <div *angularCarouselSlide>
         Slide 3
-    </ng-template>
+    </div>
 </angular-carousel>
 ```
 
