@@ -7,6 +7,6 @@
 ![license](https://img.shields.io/npm/l/@marcreichel/angular-carousel)
 [![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg)](https://gitmoji.dev)
 
-A simple and lightweight Angular (12+) Carousel component.
+A simple and lightweight Angular Carousel component.
 
 ![Demo](art/demo.gif)
